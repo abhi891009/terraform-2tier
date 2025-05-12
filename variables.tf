@@ -1,0 +1,26 @@
+variable "region" {}
+variable "vpc_cidr" {}
+variable "vpc_name" {}
+variable "public_subnet_1_cidr" {}
+variable "public_subnet_1_az" {}
+variable "public_subnet_1_name" {}
+variable "public_subnet_2_cidr" {}
+variable "public_subnet_2_az" {}
+variable "public_subnet_2_name" {}
+variable "private_subnet_1_cidr" {}
+variable "private_subnet_1_az" {}
+variable "private_subnet_1_name" {}
+variable "private_subnet_2_cidr" {}
+variable "private_subnet_2_az" {}
+variable "private_subnet_2_name" {}
+variable "igw_name" {}
+variable "nat_gw_name" {}
+variable "public_rt_name" {}
+variable "private_rt_name" {}
+variable "project" {}
+variable "rds_instance_class" {}
+variable "db_name" {}
+variable "db_username" {}
+variable "db_password" {
+  sensitive = true
+}
