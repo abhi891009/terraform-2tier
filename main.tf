@@ -9,7 +9,7 @@ module "vpc" {
 
 # Create web servers in public subnets
 module "web_server_1" {
-  source             = "./modules/web_server"
+  source             = "./modules/ec2"
   ami_id             = var.ami_id
   instance_type      = var.instance_type
   public_subnet_id   = module.vpc.public_subnet_1_id
@@ -17,7 +17,7 @@ module "web_server_1" {
 }
 
 module "web_server_2" {
-  source             = "./modules/web_server"
+  source             = "./modules/ec2"
   ami_id             = var.ami_id
   instance_type      = var.instance_type
   public_subnet_id   = module.vpc.public_subnet_2_id
