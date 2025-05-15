@@ -1,4 +1,4 @@
-name: Terraform Infra provision
+name: Terraform Two tier Infra
 
 on:
  push:
