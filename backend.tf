@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "your-terraform-state-bucket"
-    key            = "2tier/terraform.tfstate"
+    bucket         = "abhi100bucket121"
+    key            = "dev/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "your-lock-table"
     encrypt        = true
+    use_lockfile   = false
   }
 }
