@@ -1,4 +1,4 @@
-name: Terraform Two tier Infra
+name: Two tier Infra CI CD pipeline
 
 on:
  push:
