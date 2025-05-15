@@ -1,4 +1,4 @@
-name: Two tier Infra CI CD pipeline
+name: CI/CD pipeline for a two-tier infrastructure
 
 on:
  push:
