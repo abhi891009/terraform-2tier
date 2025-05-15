@@ -6,7 +6,7 @@ yum install -y httpd git
 mkdir -p /var/www/html
 cd /var/www/html
 git clone https://github.com/abhi891009/terraform-2tier.git
-cd web-app
+cd my_app
 mv index.php /var/www/html/
 # Start Apache service
 systemctl restart httpd
